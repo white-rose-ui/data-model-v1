@@ -1,0 +1,49 @@
+{
+  "seed": 17,
+  "repeats": 5,
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "dataset_sha256": "309820fa70a87c09ec48bc5bdc960859345078469c218a16583a63883e75cd0f",
+  "results": [
+    {
+      "method": "static_union",
+      "cases": 108,
+      "exact_accuracy": 0.0,
+      "excess_fields": 630,
+      "missing_fields_or_constraints": 6,
+      "abstentions": 0,
+      "median_ns": 800.0,
+      "p95_ns": 1000
+    },
+    {
+      "method": "role_only",
+      "cases": 108,
+      "exact_accuracy": 0.0,
+      "excess_fields": 378,
+      "missing_fields_or_constraints": 6,
+      "abstentions": 0,
+      "median_ns": 600.0,
+      "p95_ns": 700
+    },
+    {
+      "method": "no_temporal",
+      "cases": 108,
+      "exact_accuracy": 0.8333333333333334,
+      "excess_fields": 18,
+      "missing_fields_or_constraints": 0,
+      "abstentions": 72,
+      "median_ns": 42400.0,
+      "p95_ns": 75900
+    },
+    {
+      "method": "dmf_ca",
+      "cases": 108,
+      "exact_accuracy": 1.0,
+      "excess_fields": 0,
+      "missing_fields_or_constraints": 0,
+      "abstentions": 90,
+      "median_ns": 39950.0,
+      "p95_ns": 50800
+    }
+  ]
+}
